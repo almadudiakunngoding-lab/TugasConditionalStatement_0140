@@ -28,4 +28,13 @@ int main (){
     cin >> masBB;
     cout <<"masukan tinggi badan =";
     cin >> masTB;
+
+    //rerata = masBB/(masTB*masTB);
+    //if (rerata >=18.5)
+    //  status = "";
+    //else
+        //status = "gagal";
+    rerata = Rata_rata(masBB,masTB);
+    //status = status_BMI(rerata);
+
 }
