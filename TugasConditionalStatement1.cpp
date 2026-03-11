@@ -37,4 +37,7 @@ int main (){
     rerata = Rata_rata(masBB,masTB);
     //status = status_BMI(rerata);
 
+    cout<< "---Hasil---"<<endl;
+    cout<< "Status = "<<status_BMI(rerata)<<endl
+        << "BMI anda = "<<rerata<<endl;
 }
