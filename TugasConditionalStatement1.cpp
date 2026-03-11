@@ -17,3 +17,15 @@ string status_BMI(float r){
     else if (r >= 30)
         return "Obesitas";
 }
+
+int main (){
+
+    float masBB,masTB,rerata;
+    string status;
+
+    cout <<"--- Selamat Datang Mahasiswa Kelas C 2026 ---"<<endl;
+    cout <<"masukan Berat Badan =";
+    cin >> masBB;
+    cout <<"masukan tinggi badan =";
+    cin >> masTB;
+}
